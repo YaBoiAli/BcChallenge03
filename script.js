@@ -36,7 +36,7 @@ function generatePassword() {
       charset += passwordOptions.lowerCase;
     }
     if (uppercase) {
-      charset += passwordOptions.uppderCase;
+      charset += passwordOptions.upperCase;
     }
     if (numbers) {
       charset += passwordOptions.number;
@@ -47,16 +47,11 @@ function generatePassword() {
     //Searches the choices to see if the user atleasr selceted one of the criteria
     if(charset.search(/[a-z]/) == -1 && charset.search(/[A-Z]/) == -1 && charset.search(/[0-9]/) == -1){
       alert("Please select at least one password criteria.");
-    }
-    while(charset.search(/[a-z]/) == -1 && charset.search(/[A-Z]/) == -1 && charset.search(/[0-9]/) == -1){
-      var lowercase = confirm("Include lowercase letters?");
-      var uppercase = confirm("Include uppercase letters?");
-      var numbers = confirm("Include numbers?");
-      var specialChars = confirm("Include special characters?");
+      return null;
     }
 
   var password = "";
-  //Randomizing the password
+  //Randomizing the password 
   for (var i = 0; i < length; i++) {
     var randomChar = charset.charAt(Math.floor(Math.random() * charset.length));
     password += randomChar;
