@@ -24,11 +24,13 @@ function generatePassword() {
   while (length < 8 || length > 128 || isNaN(length)) {
     length = parseInt(prompt("Password length (between 8 and 128 characters):"));
   }
+  //Asking for user options
     var lowercase = confirm("Include lowercase letters?");
     var uppercase = confirm("Include uppercase letters?");
     var numbers = confirm("Include numbers?");
     var specialChars = confirm("Include special characters?");
 
+  //Intializing the charset for the random password
     var charset = "";
     if (lowercase) {
       charset += passwordOptions.lowerCase;
