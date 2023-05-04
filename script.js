@@ -47,7 +47,12 @@ function generatePassword() {
     //Searches the choices to see if the user atleasr selceted one of the criteria
     if(charset.search(/[a-z]/) == -1 && charset.search(/[A-Z]/) == -1 && charset.search(/[0-9]/) == -1){
       alert("Please select at least one password criteria.");
-      return null;
+    }
+    while(charset.search(/[a-z]/) == -1 && charset.search(/[A-Z]/) == -1 && charset.search(/[0-9]/) == -1){
+      var lowercase = confirm("Include lowercase letters?");
+      var uppercase = confirm("Include uppercase letters?");
+      var numbers = confirm("Include numbers?");
+      var specialChars = confirm("Include special characters?");
     }
 
   var password = "";
