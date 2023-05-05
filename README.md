@@ -24,6 +24,12 @@ The application uses event listeners to respond to user input and update the pas
     Help from classmates: Help with github and chaging the tags on HTML
     ✨ Thats all ✨
 
+## Link & Screenshot
+
+([https://yaboiali.github.io/BcChallenge03/])
+
+![Screenshot]("img1.png")
+
 ## License
 
 This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as you see fit.
