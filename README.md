@@ -28,7 +28,8 @@ The application uses event listeners to respond to user input and update the pas
 
 [https://yaboiali.github.io/BcChallenge03/]
 
-![Screenshot]("img1.png")
+<img width="959" alt="img1" src="https://user-images.githubusercontent.com/90220760/236366504-03f217fd-d16b-49f0-b37a-c301b9897cbe.png">
+
 
 ## License
 
