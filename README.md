@@ -26,7 +26,7 @@ The application uses event listeners to respond to user input and update the pas
 
 ## Link & Screenshot
 
-([https://yaboiali.github.io/BcChallenge03/])
+[https://yaboiali.github.io/BcChallenge03/]
 
 ![Screenshot]("img1.png")
 
