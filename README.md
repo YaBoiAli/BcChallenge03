@@ -26,7 +26,7 @@ The application uses event listeners to respond to user input and update the pas
 
 ## Link & Screenshot
 
-[https://yaboiali.github.io/BcChallenge03/]
+[https://yaboiali.github.io/BcChallenge03/](https://yaboiali.github.io/Password-Generator/]
 
 <img width="959" alt="img1" src="https://user-images.githubusercontent.com/90220760/236366504-03f217fd-d16b-49f0-b37a-c301b9897cbe.png">
 
